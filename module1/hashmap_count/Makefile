@@ -14,7 +14,7 @@ lint: # lint the project
 	cargo clippy
 
 format: # format the project
-	cargo format
+	cargo fmt
 
 version: # print the current version
 	@echo "Current version is $(shell cargo pkgid | cut -d# -f2)"
